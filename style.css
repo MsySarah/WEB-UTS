@@ -1,0 +1,68 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* hidden maksudnya agar tidk ditimpa konten */
+    background-color:pink;
+    font-size:20px;
+}
+
+body{
+    background-image: url('./images/gedung\ kampus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#footer-content {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    background-color:pink;
+
+}
+
+.table-container {
+    background-color: aliceblue;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.nav{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: rgb(7, 5, 1);
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: greenyellow;
+}
+
+.cv{
+    float:left;
+    padding: 25px 15px;
+}
+
+.logo{
+    float: left;
+}
